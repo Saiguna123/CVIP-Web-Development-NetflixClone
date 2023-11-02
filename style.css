@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.logo{
+    width: 30vh;
+    height: 15vh;
+    padding: 0%;
+}
+
+.landing{
+    width: 100%;
+    height: 700px;
+    background-image: url("/assests/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;   
+    box-shadow: 0 0 1000rem rgba(0,0,0,1) inset;
+    opacity: 0.9;
+}
+
+.nav{
+    display: inline-flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+.landing ul li{ 
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+    list-style: none;
+    color: white;
+}
+
+.lang{
+    background-color: black;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    font-size: medium;
+    border-radius: 8px;
+    border-color: white;
+    border-width: 0.2px;
+    cursor: pointer; 
+}
+
+.sign{
+    background-color: red;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    font-size: medium;
+    border-radius: 8px;
+}
+
+.sign:hover {
+    box-shadow: inset 0 0 20px rgba(255, 166, 170, .5), 0 0 20px rgba(255, 126, 133, .2);
+    outline-color: rgba(255, 166, 170, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+    cursor: pointer; 
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 50px 50px 0px 50px;
+}
+
+.main-content h1{
+    padding: 0%;
+    font-family: 'DM Serif Display', serif;
+    font-size: 300%;
+    text-align: center;
+}
+
+.main-content h2,h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+#fname{
+    background-color: black;
+    padding: 8px 20px 8px 20px;
+    color: white;
+    font-size: larger;
+    border-radius: 8px;
+    margin-right: 10px;
+    opacity: 0.5;
+    border-width: 0.5px;
+    border-color: white;
+}
+
+.main-button{
+    background-color: red;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    font-size: larger;
+    border-radius: 8px;
+}
+
+.main-button:hover {
+    box-shadow: inset 0 0 20px rgba(255, 166, 170, .5), 0 0 20px rgba(255, 126, 133, .2);
+    outline-color: rgba(255, 166, 170, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+    cursor: pointer; 
+}
+
+.line{
+    height: 6px;
+    background-color: #564d4d;
+}
+
+.secondslide{
+    height: 550px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondcontent{
+    background-color: black;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    padding: 0px 30px 0px 30px;
+}
+
+.secondcontent h1{
+    font-size: 7vh;
+}
+
+.secondcontent p{
+    font-size: 3vh;
+    text-align: left;
+}
+
+.thirdslide{
+    height: 550px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdcontent{
+    background-color: black;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    padding: 0px 30px 0px 30px;
+}
+
+.thirdcontent h1{
+    font-size: 7vh;
+}
+
+.thirdcontent p{
+    font-size: 3vh;
+    text-align: left;
+}
+
+.fourthslide{
+    height: 550px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourthcontent{
+    background-color: black;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    padding: 0px 30px 0px 30px;
+}
+
+.fourthcontent h1{
+    font-size: 7vh;
+}
+
+.fourthcontent p{
+    font-size: 3vh;
+    text-align: left;
+}
+
+.fourthimage{
+    width: 30%;
+    padding: 0px 20px 0px 20px;
+}
+
+.fifthslide{
+    height: 550px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifthcontent{
+    background-color: black;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    padding: 0px 30px 0px 30px;
+}
+
+.fifthcontent h1{
+    font-size: 7vh;
+}
+
+.fifthcontent p{
+    font-size: 3vh;
+    text-align: left;
+}
+
+.question{
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: inherit;
+}
+
+.question h1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 7vh;
+}
+
+.question .dropbtn{
+    height: 60px;
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4vh;
+    text-align: left;
+    padding: 0px 20px;
+    margin: 5px;
+}
+
+.question #btncontent,#btncontent1,#btncontent2,#btncontent3,#btncontent4,#btncontent5{
+    display: none;
+    margin: 0%;
+    height: fit-content;
+    width: 70%;
+    font-size: 4vh;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+
+.question p{
+    padding: 0px 20px;
+}
+
+.question form{
+    display: flex;
+    flex-direction: row;
+}
+
+.question .emailadd{
+    background-color: transparent;
+    padding: 8px 20px 8px 20px;
+    color: white;
+    font-size: larger;
+    border-radius: 8px;
+    margin-right: 10px;
+    opacity: 0.5;
+    border-width: 0.5px;
+    border-color: white;
+    margin: 0px 20px 50px;
+}
+
+.question .last{
+    background-color: red;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    font-size: larger;
+    border-radius: 8px;
+    margin: 0px 20px 50px;
+}
+
+.footer{
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.footer .footercnt{
+    display: flex;
+    flex-direction: column;
+}
+
+.footercnt h4{
+    margin: 20px 60px;
+    color: grey;
+
+}
+
+.footer .list{
+    display: flex;
+    flex-direction: row;
+}
+.footer .list ul {
+    padding: 0px 50px 0px 50px;
+}
+
+.footer .list ul li{
+    list-style: none;
+    padding: 5px 10px 5px 10px;
+    text-decoration: underline;
+    color: grey;
+}
+
+.list a{
+    color: grey;
+}
+
+.lastbutton{
+    width: max-content;
+    background-color: black;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    font-size: medium;
+    border-radius: 8px;
+    border-color: white;
+    border-width: 0.2px;
+    cursor: pointer; 
+    margin: 0px 60px;
+}
